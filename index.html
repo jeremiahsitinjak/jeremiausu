@@ -1,1 +1,94 @@
-<h1>Hello world, my Site is online!</h1>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Halaman Webpage Sederhana</title>
+
+    <script src="https://unpkg.com/@phosphor-icons/web">/* To utilize the icons */</script> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #d8be94;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: rgb(255, 255, 255);
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow:20px 20px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 75%;
+            margin-top: 10px;
+        }
+        h1 {
+            color: #000000;
+        }
+        p {
+            color: #434343;
+        }
+        .social a {
+            display: inline-block;
+            margin: 15px;
+            text-decoration: none;
+            color: white;
+            background: #5097de;
+            padding: 15px 20px;
+            border-radius: 10px;
+        }
+        .social a:hover {
+            background: #005bb5;
+        }
+        .social-media-group {
+            list-style: none; /* Remove bullets */
+            display: flex;
+            gap: 15px; /* Adjust spacing */
+            justify-content: center; /* Center icons */
+            padding: 0;
+        }
+
+        .link a {
+            font-size: 30px; /* Adjust icon size */
+            color: #333; /* Default color */
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .link a:hover {
+            color: #0073e6; /* Change color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="profile.jpg" alt="Foto">
+        <h1>Jeremia Hasudungan Sitinjak</h1>
+        <p>A developer keen on exploring all things technology.</p>
+    </div>
+
+    <div class="container">
+        <div class="social">
+            <h2>Meet me on other platforms!</h2>
+            <div class='social-media'>
+                <ul class="social-media-group">
+                    <li class='link'><a href='https://www.instagram.com/jeremiah.sitinjak/'><i class="ph ph-instagram-logo"></i></a></li>
+                    <li class='link'><a href='https://www.facebook.com/jeremia.h.sitinjak.7'><i class="ph ph-facebook-logo"></i></a></li>
+                    <li class='link'><a href='https://github.com/jeremiahsitinjak'><i class="ph ph-github-logo"></i></a></li>
+                </ul>
+            </div>
+            <p>I'd like to have put more, but they either don't exist or already have baggage and would be too incriminating!</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!--idk what to put in, im not the most creative person! feels like a headless chicken-->
